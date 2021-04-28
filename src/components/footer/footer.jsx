@@ -131,21 +131,21 @@ class Footer extends Component {
         </div>
         <div className={ classes.products }>
           <Typography className={ classes.heading } variant={ 'h6'}>Products</Typography>
-          <div  className={ classes.link } onClick={()=> window.open("https://yearn.finance", "_blank")} >
+          <div  className={ classes.link } onClick={()=> window.open("https://muffinswap.finance", "_blank")} >
             <AttachMoneyIcon height='15px' className={ classes.icon } />
-            <Typography variant={ 'h4'} >yearn.finance</Typography>
+            <Typography variant={ 'h4'} >Yield farms</Typography>
           </div>
-          <div  className={ classes.link } onClick={()=> window.open("https://ygov.finance", "_blank")} >
+          <div  className={ classes.link } onClick={()=> window.open("https://exchange.muffinswap.finance", "_blank")} >
             <HowToVoteIcon height='15px' className={ classes.icon } />
-            <Typography variant={ 'h4'} >ygov.finance</Typography>
+            <Typography variant={ 'h4'} >Exchange V.1</Typography>
           </div>
-          <div  className={ classes.link } onClick={()=> window.open("https://yborrow.finance", "_blank")} >
+          <div  className={ classes.link } onClick={()=> window.open("https://borrow.muffinswap.finance", "_blank")} >
             <MonetizationOnIcon height='15px' className={ classes.icon } />
-            <Typography variant={ 'h4'} >yborrow.finance</Typography>
+            <Typography variant={ 'h4'} >Borrow</Typography>
           </div>
-          <div  className={ classes.link } onClick={()=> window.open("https://docs.yearn.finance", "_blank")} >
+          <div  className={ classes.link } onClick={()=> window.open("https://docs.muffinswap.finance", "_blank")} >
             <DescriptionIcon height='15px' className={ classes.icon } />
-            <Typography variant={ 'h4'} >docs.yearn.finance</Typography>
+            <Typography variant={ 'h4'} >About Muffin</Typography>
           </div>
         </div>
         <div className={ classes.community }>
